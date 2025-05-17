@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    overflow-x: hidden;
+}
+
+.banner{
+    height: 900px;
+}
+
+.section3 img{
+    height: 500px;
+    width: 100%;
+}
+
+@media (min-width: 768px) { /* Para tablets y móviles */
+    .banner{
+        height: 600px;
+    }
+  }
