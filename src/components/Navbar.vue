@@ -8,10 +8,16 @@
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse col-4 navbar-collapse" id="navbarNavDropdown" style="max-width: 306px;">
+      <div class="collapse col-4 navbar-collapse" id="navbarNavDropdown" style="max-width: 416px;">
         <ul class="navbar-nav">
           <li class="nav-item">
             <router-link class="nav-link" to="/">Home</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/productos">Productos</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/users">Usuarios</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/about">About Us</router-link>
